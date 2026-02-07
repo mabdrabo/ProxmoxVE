@@ -2,7 +2,7 @@
 source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
 # Copyright (c) 2021-2026 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/mabdrabo/ProxmoxVE/raw/main/LICENSE
 # Source: https://docs.paperless-ngx.com/
 
 APP="Paperless-ngx"
@@ -41,7 +41,7 @@ function update_script() {
       echo -e ""
       msg_custom "🔄" "Migration required to new data structure (/opt/paperless_data/)"
       msg_custom "📖" "Please follow the migration guide:"
-      echo -e "${TAB}${GATEWAY}${BGN}https://github.com/community-scripts/ProxmoxVE/discussions/9223${CL}"
+      echo -e "${TAB}${GATEWAY}${BGN}https://github.com/mabdrabo/ProxmoxVE/discussions/9223${CL}"
       echo -e ""
       msg_custom "⚠️" "Update aborted. Please migrate your data first."
       exit 1

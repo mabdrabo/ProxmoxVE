@@ -119,7 +119,7 @@ explain_exit_code() {
   222) echo "Custom: Template download failed after 3 attempts (network/storage issue)" ;;
   223) echo "Custom: Template not available after download (storage sync issue)" ;;
   225) echo "Custom: No template available for OS/Version (check 'pveam available')" ;;
-  231) echo "Custom: LXC stack upgrade/retry failed (outdated pve-container - check https://github.com/community-scripts/ProxmoxVE/discussions/8126)" ;;
+  231) echo "Custom: LXC stack upgrade/retry failed (outdated pve-container - check https://github.com/mabdrabo/ProxmoxVE/discussions/8126)" ;;
 
   # --- Default ---
   *) echo "Unknown error" ;;
